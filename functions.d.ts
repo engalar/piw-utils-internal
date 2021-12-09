@@ -4,4 +4,7 @@ export declare const isAvailable: (property: DynamicValue<any> | EditableValue<a
 export declare const parseStyle: (style?: string) => {
     [key: string]: string;
 };
-export declare const debounce: <F extends (...args: any[]) => any>(func: F, waitFor: number) => (...args: Parameters<F>) => ReturnType<F>;
+export declare const debounce: <F extends (...args: any[]) => any>(
+    func: F,
+    waitFor: number
+) => (...args: Parameters<F>) => ReturnType<F>;

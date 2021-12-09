@@ -31,7 +31,13 @@ declare type BaseProps = {
     type: string;
     grow?: number;
 };
-export declare type StructurePreviewProps = ImageProps | ContainerProps | RowLayoutProps | TextProps | DropZoneProps | SelectableProps;
+export declare type StructurePreviewProps =
+    | ImageProps
+    | ContainerProps
+    | RowLayoutProps
+    | TextProps
+    | DropZoneProps
+    | SelectableProps;
 export declare type ImageProps = BaseProps & {
     type: "Image";
     document?: string;
